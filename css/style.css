@@ -17,10 +17,58 @@ ul {
 li a {
   text-decoration: none;
   font-size: 12px;
-  color: black;
+  color: white;
   font-weight: 100;
 }
 
+a:hover {
+  color: yellow;
+}
+
+header {
+  background-color: #333;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  justify-content: space-evenly;
+}
+
 img {
-  background-color: white;
+  cursor: pointer;
+}
+
+section img:hover {
+  width: 210px;
+  border-bottom: 2px solid black;
+}
+
+h4 {
+  position: absolute;
+  left: 50px;
+  top: 150px;
+  font-size: 13px;
+  color: aliceblue;
+  text-shadow: 3px 3px 10px black;
+  background-color: #333;
+  display: none;
+}
+
+article {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer {
+  height: 50px;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  background-color: #333;
+  color: white;
+  font-size: 11px;
+  width: 100%;
 }
